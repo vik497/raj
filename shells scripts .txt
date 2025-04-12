@@ -1,0 +1,9 @@
+#!/bin/bash
+HOST="google.com"
+OUTPUT_FILE="/f/devsecops-key/Linux/output.txt"
+if ping -c 1 $HOST &> /dev/null
+then
+echo "$HOST is reacheable" >> $OUTPUT_FILE
+else
+echo "$HOST is not reacheable" >> $OUTPUT_FILE
+fi

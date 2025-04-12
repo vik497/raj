@@ -1,0 +1,160 @@
+ ACCOUNT ID 897722685941
+ 
+ Devopsonline8@gmail.com
+ Devops@123456789
+
+git:
+
+ Devopsonline8@gmail.com
+ Devops@123456789
+
+
+
+
+vpc-0b52dd405829b4808   vpc id 
+
+subnet-0058d672ee7497d17  subnet id 
+
+rtb-02eb3b5848f503e91  routrtable id 
+
+
+As a DevOps engineer, you'll frequently use Linux commands to manage and automate tasks. Here are the basic Linux commands to get you started:
+
+File System Navigation
+
+1. cd: Change directory. Example: cd ~/Documents
+2. pwd: Print working directory. Example: pwd
+3. ls: List files and directories. Example: ls -l
+4. mkdir: Make a directory. Example: mkdir mydir
+5. rm: Remove a file or directory. Example: rm myfile.txt
+6. rmdir: Remove an empty directory. Example: rmdir mydir
+7. cp: Copy a file or directory. Example: cp myfile.txt mydir/
+8. mv: Move or rename a file or directory. Example: mv myfile.txt mydir/
+
+File Editing and Viewing
+
+1. cat: Display file contents. Example: cat myfile.txt
+2. less: View file contents with pagination. Example: less myfile.txt
+3. head: Display first few lines of a file. Example: head -n 5 myfile.txt
+4. tail: Display last few lines of a file. Example: tail -n 5 myfile.txt
+5. nano: Edit a file using the nano editor. Example: nano myfile.txt
+6. vim: Edit a file using the vim editor. Example: vim myfile.txt
+
+User Management and Permissions
+
+1. su: Switch to superuser (root) account. Example: su
+2. sudo: Execute a command with superuser privileges. Example: sudo apt-get install firefox
+3. useradd: Add a new user account. Example: useradd myuser
+4. usermod: Modify an existing user account. Example: usermod -aG sudo myuser
+5. chmod: Change file permissions. Example: chmod +x myfile.sh
+6. chown: Change file ownership. Example: chown myuser:mygroup myfile.txt
+
+Process Management
+
+1. ps: Display running processes. Example: ps aux
+2. kill: Terminate a process. Example: kill 1234
+3. killall: Terminate all processes with a specific name. Example: killall firefox
+4. bg: Run a command in the background. Example: bg mycommand
+5. fg: Bring a background process to the foreground. Example: fg mycommand
+
+Networking
+
+1. ping: Test network connectivity. Example: ping (link unavailable)
+2. ssh: Securely connect to a remote server. Example: ssh myuser@myserver
+3. scp: Securely copy files between servers. Example: scp myfile.txt myuser@myserver:~/
+4. wget: Download files from the internet. Example: `wget (link unavailable)
+5. curl: Transfer data to and from a web server. Example: curl (link unavailable)
+
+Package Management
+
+1. apt-get: Manage packages on Debian-based systems. Example: apt-get install firefox
+2. yum: Manage packages on RPM-based systems. Example: yum install firefox
+3. pip: Manage Python packages. Example: pip install requests
+
+System Information
+
+1. uname: Display system information. Example: uname -a
+2. hostname: Display system hostname. Example: hostname
+3. uptime: Display system uptime. Example: uptime
+4. free: Display system memory and disk usage. Example: free -m
+5. df: Display disk usage. Example: df -h
+
+
+
+
+
+shell scripts 
+
+#!/bin/bash
+pwd 
+
+mkdir devops123 linuxs123 aws123  
+cd devops123/
+touch demo{1..100}.txt
+cd ..
+cd linuxs123/
+touch aws {1..500}.pdf
+cd ..
+cd aws123/
+touch azure {1..1000}
+
+
+
+
+backup scripts 
+#!/bin/bash
+sources="/home/ubuntu/scripts/sources"
+distination="/home/ubuntu/scripts/distination"
+date= $(date +%y-%m-%d-%h-%s)
+#creating backup director from sources to distination 
+
+mkdir -p $ distination/$date
+cp -r $sources $distination/date/
+echo "backuphas been completed succesful from sources to distination on $date"
+
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version><build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+        </plugin>
+    </plugins>git remote add origin https://github.com/yourusername/your-repository.git
+
+</build>
+
+
+
+git config user.email "Devopsonline8@gmail.com"
+git config user.name "raju"
+
+
+git remote add origin https://github.com//your-repository.git
+
+
+git remote add origin https://github.com/yourusername/your-repository.git
+
+
+
+ 
+
+ 

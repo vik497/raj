@@ -1,0 +1,9 @@
+#!/bin/bash
+
+touch demo.txt
+pwd
+
+mkdir for made sudo kado
+
+
+

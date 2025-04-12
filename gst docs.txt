@@ -1,0 +1,8 @@
+1 Rental agreement with notary 
+2 Electricity biil with full adress 
+3.Company name 
+4.pass photo size photo 1 
+5.Bank details like canceled cheque 1 
+6.Aadhara and pan card 
+7.gmail and phon number  
+8.Place of business .

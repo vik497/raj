@@ -1,0 +1,6 @@
+#!/bin/bash
+touch raju.txt
+
+mkdir linuxs ubuntu centos raju
+
+

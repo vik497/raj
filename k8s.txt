@@ -1,0 +1,14 @@
+rajus3bucket123
+
+kops create cluster --kubevpro.site-e4m241k9p.godaddysites.com--state=s3://rajus3bucket123 --zones=ap-south-1 --node-count=3 --node-size=t3.small --control-plane-size=t3.medium --dns-zone=kubevpro.site-e4m241k9p.godaddysites.com --node-volume-size=12 --control-plane-volume-size=12 --ssh-public-key ~/.ssh/id_ed25519.pub
+
+
+
+kops update cluster --name=kubevpro.hkhinfoteck.xyz --state=s3://rajus3bucket123 --yes --admin
+
+
+
+kubevpro.site-e4m241k9p.godaddysites.com   =====
+
+
+kubernetskeyfile.pem
